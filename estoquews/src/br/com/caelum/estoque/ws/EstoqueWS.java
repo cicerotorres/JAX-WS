@@ -46,7 +46,7 @@ public class EstoqueWS {
 
 		if (tokenValido) {
 			System.out.println("Cadastrando item: " + item);
-			// novo
+			
 			new ItemValidador(item).validate();
 			this.dao.cadastrar(item);
 		} else {
