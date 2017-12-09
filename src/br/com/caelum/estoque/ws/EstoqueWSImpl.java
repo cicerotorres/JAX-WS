@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "br.com.caelum.estoque.ws.EstoqueWS")
+@WebService(endpointInterface = "br.com.caelum.estoque.ws.EstoqueWS", serviceName = "EstoqueWS", portName = "EstoqueWSPort")
 public class EstoqueWSImpl implements EstoqueWS {
 
 	@Override
